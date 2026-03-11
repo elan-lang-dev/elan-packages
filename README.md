@@ -2,7 +2,7 @@
 
 Official package repository for the **ELAN Programming Language**.
 
-This repository contains installable libraries for ELAN.
+This repository stores installable libraries for ELAN.
 
 Owner: Elancheran C G  
 Co-Owner: Elandhiraiyan C G
@@ -11,66 +11,45 @@ Co-Owner: Elandhiraiyan C G
 
 ## Install Packages
 
-Use the ELAN package manager from the command line:
-
-elan install <package_name>
+Libraries can be installed using the ELAN command line tool.
 
 Example:
 
-elan install elanmath
-elan install elanstring
-elan install elanvision
+elan install <package_name>
 
 ---
 
-## Available Packages
+## Usage Example
 
-elanmath      – mathematics library  
-elanstring    – string processing library  
-elanfile      – file operations  
-elantime      – time utilities  
-elanrandom    – random number generator  
-elanjson      – JSON data handling  
-elanvision    – computer vision tools  
-elanai        – artificial intelligence utilities  
-
----
-
-## Example Usage
-
-use elanmath
+use library_name
 
 fn main {
 
-    result = elanmath.add 5 10
-
-    print result
+    print "Library loaded"
 
 }
 
 ---
 
-## Package Structure
+## Repository Structure
 
-Each package is stored as:
+Each package is stored as a separate `.el` file.
 
-package_name.el
+Example structure:
 
-Example:
-
-elanmath.el  
-elanstring.el  
+packages/
+    package_name.el
 
 ---
 
 ## Contributing
 
-Developers can contribute new libraries to expand the ELAN ecosystem.
+Developers around the world can contribute new libraries to expand the ELAN ecosystem.
 
 Steps:
 
-1. Fork the repository
-2. Add your library
+1. Fork this repository
+2. Add your library file
 3. Submit a pull request
 
 ---
