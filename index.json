@@ -1,0 +1,39 @@
+{
+  "packages": {
+    "elanmath": {
+      "version": "1.0.0",
+      "description": "Mathematics library for ELAN",
+      "file": "packages/elanmath.el"
+    },
+    "elanstring": {
+      "version": "1.0.0",
+      "description": "String processing library",
+      "file": "packages/elanstring.el"
+    },
+    "elanfile": {
+      "version": "1.0.0",
+      "description": "File operations library",
+      "file": "packages/elanfile.el"
+    },
+    "elantime": {
+      "version": "1.0.0",
+      "description": "Time utilities",
+      "file": "packages/elantime.el"
+    },
+    "elanrandom": {
+      "version": "1.0.0",
+      "description": "Random number generator",
+      "file": "packages/elanrandom.el"
+    },
+    "elanjson": {
+      "version": "1.0.0",
+      "description": "JSON data handling",
+      "file": "packages/elanjson.el"
+    },
+    "elansys": {
+      "version": "1.0.0",
+      "description": "System utilities",
+      "file": "packages/elansys.el"
+    }
+  }
+}
