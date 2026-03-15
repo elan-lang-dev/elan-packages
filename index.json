@@ -1,39 +1,54 @@
 {
   "packages": {
-    "elanmath": {
-      "version": "1.0.0",
-      "description": "Mathematics library for ELAN",
-      "file": "packages/elanmath.el"
-    },
-    "elanstring": {
-      "version": "1.0.0",
-      "description": "String processing library",
-      "file": "packages/elanstring.el"
-    },
-    "elanfile": {
-      "version": "1.0.0",
-      "description": "File operations library",
-      "file": "packages/elanfile.el"
-    },
-    "elantime": {
-      "version": "1.0.0",
-      "description": "Time utilities",
-      "file": "packages/elantime.el"
-    },
-    "elanrandom": {
-      "version": "1.0.0",
-      "description": "Random number generator",
-      "file": "packages/elanrandom.el"
-    },
-    "elanjson": {
-      "version": "1.0.0",
-      "description": "JSON data handling",
-      "file": "packages/elanjson.el"
-    },
-    "elansys": {
-      "version": "1.0.0",
-      "description": "System utilities",
-      "file": "packages/elansys.el"
-    }
+    "elanui": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanui/elanui.el"},
+    "elangraphics2d": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elangraphics2d/elangraphics2d.el"},
+    "elangraphics3d": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elangraphics3d/elangraphics3d.el"},
+    "elanaudiofx": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanaudiofx/elanaudiofx.el"},
+    "elansound": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elansound/elansound.el"},
+    "elanphysics3d": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanphysics3d/elanphysics3d.el"},
+    "elanmotionfx": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanmotionfx/elanmotionfx.el"},
+    "elancollision3d": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elancollision3d/elancollision3d.el"},
+    "elanfuzzylogic": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanfuzzylogic/elanfuzzylogic.el"},
+    "elanvisionai": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanvisionai/elanvisionai.el"},
+    "elanocrplus": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanocrplus/elanocrplus.el"},
+    "elanvoiceai": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanvoiceai/elanvoiceai.el"},
+    "elanspeechai": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanspeechai/elanspeechai.el"},
+    "elanwebcore": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanwebcore/elanwebcore.el"},
+    "elanhttpclient": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanhttpclient/elanhttpclient.el"},
+    "elansocketio": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elansocketio/elansocketio.el"},
+    "elanfirebasekit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanfirebasekit/elanfirebasekit.el"},
+    "elandatabase": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elandatabase/elandatabase.el"},
+    "elansql": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elansql/elansql.el"},
+    "elanoauth": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanoauth/elanoauth.el"},
+    "elancryptoext": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elancryptoext/elancryptoext.el"},
+    "elanpdfgen": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanpdfgen/elanpdfgen.el"},
+    "elancanvas3d": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elancanvas3d/elancanvas3d.el"},
+    "elanparticlesfx": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanparticlesfx/elanparticlesfx.el"},
+    "elangameengine": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elangameengine/elangameengine.el"},
+    "elangamepadkit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elangamepadkit/elangamepadkit.el"},
+    "elanuiwidgets": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanuiwidgets/elanuiwidgets.el"},
+    "elandebug": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elandebug/elandebug.el"},
+    "elanscheduler": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanscheduler/elanscheduler.el"},
+    "elanrandomplus": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanrandomplus/elanrandomplus.el"},
+    "elananimationfx": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elananimationfx/elananimationfx.el"},
+    "elanfontskit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanfontskit/elanfontskit.el"},
+    "elanimagefx": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanimagefx/elanimagefx.el"},
+    "elanvideoedit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanvideoedit/elanvideoedit.el"},
+    "elanwebsocketkit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanwebsocketkit/elanwebsocketkit.el"},
+    "elanuuidkit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanuuidkit/elanuuidkit.el"},
+    "elanziputils": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanziputils/elanziputils.el"},
+    "elantoolspro": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elantoolspro/elantoolspro.el"},
+    "elanaihelper": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanaihelper/elanaihelper.el"},
+    "elancvkit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elancvkit/elancvkit.el"},
+    "elanshaderfx": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanshaderfx/elanshaderfx.el"},
+    "elanscene3d": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanscene3d/elanscene3d.el"},
+    "elancamerakit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elancamerakit/elancamerakit.el"},
+    "elangameassets": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elangameassets/elangameassets.el"},
+    "elangametools": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elangametools/elangametools.el"},
+    "elanwebgui": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanwebgui/elanwebgui.el"},
+    "elanmusickit": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanmusickit/elanmusickit.el"},
+    "elanaudioanalysis": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanaudioanalysis/elanaudioanalysis.el"},
+    "elanpluginmgr": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanpluginmgr/elanpluginmgr.el"},
+    "elanscripting": {"version": "1.0", "url": "https://raw.githubusercontent.com/elan-lang-dev/elan-packages/main/elanscripting/elanscripting.el"}
   }
 }
